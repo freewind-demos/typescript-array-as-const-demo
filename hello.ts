@@ -1,1 +1,3 @@
-console.log('Hello');
+const array: readonly [string, string] = ['aaa', 'bbb'] as const;
+
+array.push('ccc');

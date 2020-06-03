@@ -1,18 +1,9 @@
-TypeScript Hello World Demo
+TypeScript Array "as const" Demo
 ===========================
+
+`array as const`等价于 readonly array，表示一个数组不仅引用不可变，其内容也不可变。
 
 ```
 npm install
 npm run demo
 ```
-
-Note:
-
-`esModuleInterop` is recommended to set to `true`,
-since we can have consistent importing syntax with babel,
-always use:
-
-```
-import some from 'some'
-```
-
